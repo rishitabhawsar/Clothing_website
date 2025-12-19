@@ -1,0 +1,416 @@
+@media (max-width:768px) {
+
+
+    #navbar {
+        max-width: 768px;
+        padding: 0px 10px;
+    }
+
+    input.search {
+        width: 200px;
+    }
+
+    #one>img {
+        margin: 20px 10px;
+    }
+
+    #two {
+        max-width: 768px;
+        margin-bottom: 10px;
+    }
+
+    #two>ul {
+        width: 100%;
+        height: 100px;
+        gap: 10px;
+    }
+
+    #two>ul>li {
+        font-size: small;
+    }
+
+    .collection {
+        max-width: 768px;
+        height: 384px;
+        margin: 20px 10px;
+    }
+
+    #shop {
+
+        transform: translateX(100px) translateY(-100px);
+    }
+
+    #shop-men {
+        width: 100px;
+        height: 40px;
+        font-size: small;
+        transform: translateX(50px) translateY(-50px);
+    }
+
+    .section {
+        max-width: 768px;
+        margin-top: 20px;
+    }
+
+    #scrollbox-new {
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        width: 280px;
+    }
+
+    #scrollbox-best {
+        gap: 5px;
+    }
+
+    #scrollbox-pick {
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        max-width: 768px;
+    }
+
+    #f_one {
+        font-size: small;
+    }
+
+    #f_two {
+        font-size: small;
+        padding: 30px 10px;
+    }
+
+    #f_three {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:430px) {
+    #navbar {
+        width: 100%;
+
+    }
+
+    #Menu>li>a {
+        display: none;
+    }
+
+    #menuIcon>img {
+        margin: 30px 5px 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    #logo>img {
+        object-fit: cover;
+    }
+
+    input.search {
+        margin-right: -80px;
+    }
+
+    #one {
+        width: 100%;
+    }
+
+    #one>img {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    #two {
+        width: 100%;
+
+    }
+
+    #two>ul> {
+        gap: 10px;
+
+    }
+
+    #two>ul>li {
+        margin: 10px;
+        font-size: x-small;
+    }
+
+    #two>ul>li>img {
+        width: 20px;
+    }
+
+    .collection {
+        width: 100%;
+        height: auto;
+        margin: 10px 0px 20px;
+        display: block;
+    }
+
+    #vdo {
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+
+    #top_bottom {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        margin: 0px;
+    }
+
+    #top_bottom>div {
+        height: 100%;
+    }
+
+    #top_bottom>div>img {
+        object-fit: cover;
+        margin: 0px;
+    }
+
+    #outerwear {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+    }
+
+    #outerwear>div {
+        height: 100%;
+        margin: 0px;
+    }
+
+    #outerwear>div>img {
+        object-fit: cover;
+    }
+
+    #shop {
+        transform: translateX(30px) translateY(-70px);
+    }
+
+    #shop-men {
+        width: 100px;
+        height: 30px;
+        font-size: x-small;
+        transform: translateX(30px)translateY(-40px);
+    }
+
+    .section {
+        width: 100%;
+
+        h1 {
+            font-size: xx-large;
+        }
+    }
+
+    #scrollbox-new {
+        gap: 5px;
+        margin: 0px;
+        padding: 0px 5px;
+    }
+
+    #scrollbox-best {
+        gap: 5px;
+        margin: 0px;
+        padding: 0px 5px;
+    }
+
+    #scrollbox-pick {
+        gap: 5px;
+        margin: 0px;
+        padding: 0px 5px;
+    }
+
+    .scroll-btn {
+        padding: 5px 0px;
+    }
+
+    .box {
+        width: 300px;
+        padding: 0px 5px;
+    }
+
+    #box-new {
+        margin: 0px 0px;
+    }
+
+    #box-best {
+        margin: 0px 0px;
+    }
+
+    #box-pick {
+        margin: 0px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    #f_one {
+        font-size: xx-small;
+        width: 40%;
+        padding: 30px 20px 20px;
+    }
+
+    #f_one>p>img {
+        width: 10px;
+        height: 10px;
+    }
+
+    #f_two {
+        font-size: xx-small;
+        width: 30%;
+        padding: 20px 20px;
+    }
+
+    #bottom_navbar {
+        display: flex;
+        position: fixed;
+        background-color: #5d3423;
+        bottom: 0;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+/* about-us-page */
+/* Mobile styles */
+@media (max-width: 768px) {
+    #about h1 {
+        font-size: 1.8rem;
+    }
+
+    #about p {
+        max-width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+        line-height: 1.7rem;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  #about{
+    width: 100%;
+  }
+  #about>h1{
+    text-align: center;
+    margin: 10px;
+  }
+  #about>div{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #about>div>p{
+    margin: 10px ;
+    padding: 0;
+    font-size:small;
+    line-height: normal;
+  }
+  #about>div>img{
+    display: none;
+  }
+  #about>h2{
+    font-size: large;
+    text-align: center;
+  }
+ #about> #sections{
+    width: 100%;
+    display: block;
+  }
+  #first{
+    margin: 20px;
+  }
+  #first>h2{
+    font-size: medium;font-weight: bold;
+  }
+}
+/* accessories-page */
+@media (max-width: 480px) {
+    #box_style {
+        width: 90%;
+        /* Go full width on small screens */
+    }
+
+    #top_img {
+        height: 220px;
+    }
+}
+
+/* cart-page */
+@media (max-width: 992px) {
+    .card-body .row {
+        text-align: center;
+    }
+
+    .card-body .col-md-3,
+    .card-body .col-md-2 {
+        margin-top: 10px;
+    }
+}
+
+/*  Mobile Layout */
+@media (max-width: 768px) {
+
+    .card-body .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+
+    .col-md-3.col-lg-2.col-xl-2.offset-lg-1 {
+        margin-top: 10px;
+        text-align: center !important;
+    }
+
+    .col-md-1.col-lg-1.col-xl-1 {
+        margin-top: 10px;
+        text-align: center !important;
+    }
+
+    input[type=number] {
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    #discount .d-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #discount button {
+        width: 100%;
+    }
+}
+
+/*  Very Small Screens */
+@media (max-width: 480px) {
+
+    .card img {
+        width: 85%;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}

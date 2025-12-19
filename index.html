@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Clothing</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="images/logo/Untitled-1-01-01.png">
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div>
+                <!-- logo -->
+                <img class="img-fluid" id="logo" src="images/logo/Untitled design.png">
+            </div>
+            <!-- search-bar -->
+            <input class="search" type="search" placeholder="Search Here...">
+
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <!-- icons -->
+            <ul id="Menu">
+                <li><a href="profile_page.html" target="_self"><img src="images/icons/user (1).png"></a></li>
+                <li><a href="favourite.html" target="_self"><img src="images/icons/heart.png"></a></li>
+                <li><a href="cart.html" target="_self"><img src="images/icons/shopping-bag.png"></a></li>
+                <li><a href="contact_us.html" target="_self"><img src="images/icons/telephone-call.png"></a></li>
+
+                <a href="#" id="menuIcon"><img src="images/icons/menu (1).png" alt="Menu"></a>
+
+            </ul>
+            <!-- dropdown-menu -->
+            <div class="offcanvas-menu" id="offcanvasMenu">
+                <div class="offcanvas-content">
+                    <button class="close-btn" id="closeOffcanvas">&times;</button>
+                    <ul>
+                        <li><a href="index.html" target="_self">Home</a></li>
+                        <li><a href="shop_all.html" target="_self">Shop All</a></li>
+                        <li><a href="men.html" target="_self">Men</a></li>
+                        <li><a href="women.html" target="_self">Women</a></li>
+                        <li><a href="accessories.html" target="_self">Accessories</a></li>
+                        <li><a href="outerwear.html" target="_self">Outerwear</a></li>
+                        <li><a href="winterwear.html">Winterwear</a></li>
+                        <li><a href="about_us.html" target="_self">About Us</a></li>
+                        <li><a href="contact_us.html" target="_self">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero_banner -->
+    <div id="one">
+        <!-- hero-image -->
+        <img src="images/banners/download (2).jpeg">
+    </div>
+    <div id="two">
+        <ul>
+            <li><img src="images/icons/send.png"> Free Shipping<br>
+                <span style="color: rgb(170, 170, 170);">Available</span>
+            </li>
+            <li><img src="images/icons/bag.png">Cash On Delivery<br>
+                <span style="color: rgb(170, 170, 170);">Available</span>
+            </li>
+            <li><img src="images/icons/reload.png"> Free Return<br>
+                <span style="color: rgb(170, 170, 170);">Available</span>
+            </li>
+            <li><img src="images/icons/lock.png">100% Secure<br>
+                <span style="color: rgb(170, 170, 170);">Online Shopping</span>
+            </li>
+        </ul>
+    </div>
+    <!-- <div id="three">
+        <h1>Collection</h1>
+        <p>Men | Women</p>
+        <div id="collection">
+            <button class="scroll-btn" id="prevBtn-collection">
+                <img src="images/icons/right (1).png" alt="Previous">
+            </button>
+            <div id="box-collection">
+                <div><img src="images/collection/IMG_3832.JPG" alt="TOPWEAR">
+                    <p>TOPWEAR</p>
+                </div>
+                <div><img src="images/collection/IMG_3831.JPG" alt="BOTTOMWEAR">
+                    <p>BOTTOMWEAR</p>
+                </div>
+                <div><img src="images/collection/Men's Loose Cargo Suede Jacket - Army Green - 3XL.jpeg"
+                        alt="OUTERWEAR">
+                    <p>OUTERWEAR</p>
+                </div>
+                <div><img src="images/collection/Flower Ball Cap_Beige.jpeg" alt="ACCESSORIES">
+                    <p>ACCESSORIES</p>
+                </div>
+                <div><img src="images/collection/download (4).jpeg" alt="WINTERWEAR">
+                    <p>WINTERWEAR</p>
+                </div>
+            </div>
+            <button class="scroll-btn" id="nextBtn-collection">
+                <img src="images/icons/right.png" alt="Next">
+            </button>
+        </div>
+    </div> -->
+    <!-- collection-collage -->
+    <div class="collection">
+        <div id="vdo">
+            <video autoplay loop muted playsinline>
+                <source src="images/collection/Untitled design (1).mp4" type="video/mp4">
+            </video>
+            <button type="button" id="shop"><a href="women.html">Shop Women</a></button>
+        </div>
+        <div id="top_bottom">
+            <div>
+                <img src="images/collection/IMG_3831.JPG">
+                <button type="button" id="shop-men"><a href="bottomwear.html">Men's Bottomwear</a></button>
+            </div>
+            <div>
+                <img src="images/collection/IMG_3832.JPG">
+                <button type="button" id="shop-men"><a href="topwear.html">Men's Topwear</a></button>
+            </div>
+        </div>
+        <div id="outerwear">
+            <div>
+                <img src="images/collection/download (4).jpeg">
+                <button type="button" id="shop-men"><a href="outerwear.html">Outerwear</a></button>
+            </div>
+            <div>
+                <img src="images/collection/Flower Ball Cap_Beige.jpeg">
+                <button type="button" id="shop-men"><a href="accessories.html">Accessories</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- new-arrival-section -->
+    <div class="section" id="new-arrival">
+        <h1>New Arrival</h1>
+        <p>Browse the huge variety of our products</p>
+         <p><a href="men.html">Men</a> |<a href="women.html"> Women</a></p>
+        <div id="scrollbox-new">
+            <button class="scroll-btn" id="prevBtn-new">
+                <img src="images/icons/right (1).png" alt="Previous">
+            </button>
+            <div id="box-new">
+                <div class="box">
+                    <img src="images/download (6).jpeg" alt="">
+                    <p>Men's Fashion Casual Loose Short Sleeves T-shirt</p>
+                    <p> ₹ 1099.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Manfinity Hypemode Men's Loose Fit Corduroy Pants With Slant Pockets.jpeg" alt="">
+                    <p>Manfinity Hypemode Men's Loose Fit Corduroy Pants With Slant Pockets</p>
+                    <p>₹ 3090.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/download (10).jpeg" alt="">
+                    <p>Regular Fit Wool Bend Jacket</p>
+                    <p>₹ 4090.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Men's Distressed Leather Color Block Bomber Jacket - Handmade Vintage Style.jpeg"
+                        alt="">
+                    <p>Men's Distressed Leather Color Block Bomber Jacket</p>
+                    <p>₹ 6000.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Women’s Blouses & Shirts _ Silk, Cotton & Statement Styles _ & Other Stories BE.jpeg"
+                        alt="">
+                    <p>Dark Brown V-neck Detailing Top</p>
+                    <p>₹ 2700.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Trucker Cap _ Junk_Cyborg Mood.jpeg" alt="">
+                    <p>Trucker Cap Combo</p>
+                    <p>₹ 700.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/IMG_3834.JPG" alt="">
+                    <p>Oversized Wide Leg Sweatpants in Washed Brown</p>
+                    <p>₹ 2700.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+            </div>
+            <button class="scroll-btn" id="nextBtn-new">
+                <img src="images/icons/right.png" alt="Next">
+            </button>
+        </div>
+        <p id="explore"><a href="shop_all.html">Explore More</a></p>
+    </div>
+    <!-- best-seller-section -->
+    <div class="section" id="best-seller">
+        <h1>Best Seller</h1>
+        <p>Browse the huge variety of our products</p>
+        <p><a href="men.html">Men</a> |<a href="women.html"> Women</a></p>
+        <div id="scrollbox-best">
+            <button class="scroll-btn" id="prevBtn-best">
+                <img src="images/icons/right (1).png" alt="Previous">
+            </button>
+            <div id="box-best">
+                <div class="box">
+                    <img src="images/Le 31 - Wide-rib knit polo (Men, Brown).jpeg" alt="">
+                    <p> Wide-rib knit polo T-shirt( Brown)</p>
+                    <p> ₹ 1099.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Le 31 - Wide-rib knit polo (Men, White).jpeg" alt="">
+                    <p> Wide-rib knit polo T-shirt( White)</p>
+                    <p>₹ 1099.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/download (13).jpeg" alt="">
+                    <p>Retro Stand Collar Thickened Short Coat</p>
+                    <p>₹ 4090.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/IMG_3836.JPG" alt="">
+                    <p>Men's Corduroy Vintage Cargo Pants</p>
+                    <p>₹ 2900.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Bio Linen Comfortable Pants_Natural.jpeg" alt="">
+                    <p>Linen Comfortable Pants_Natural</p>
+                    <p>₹ 1700.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+            </div>
+            <button class="scroll-btn" id="nextBtn-best">
+                <img src="images/icons/right.png" alt="Next">
+            </button>
+        </div>
+        <p id="explore"><a href="shop_all.html">Explore More</a></p>
+    </div>
+    <!-- seasonal-pick-section -->
+    <div class="section" id="seasonal-pick">
+        <h1>Seasonal Picks</h1>
+        <p>Browse the huge variety of our products</p>
+         <p><a href="men.html">Men</a> |<a href="women.html"> Women</a></p>
+        <div id="scrollbox-pick">
+            <button class="scroll-btn" id="prevBtn-pick">
+                <img src="images/icons/right (1).png" alt="Previous">
+            </button>
+            <div id="box-pick">
+                <div class="box">
+                    <img src="images/download (28).jpeg" alt="">
+                    <p> Wide-rib knit polo T-shirt( sage green)</p>
+                    <p> ₹ 1099.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Pull&Bear 'Los Angeles' graphic sweat in washed gray.jpeg" alt="">
+                    <p>'Los Angeles' graphic sweat in washed gray</p>
+                    <p>₹ 1099.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Diesel_ Shop the latest styles online at ABOUT YOU_.jpeg" alt="">
+                    <p>Basic Black Sweatshirt</p>
+                    <p>₹ 4090.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/PULL&BEAR BASIC ROUND NECK - Športni pulover - beige.jpeg" alt="">
+                    <p> BASIC ROUND NECK Pullovers</p>
+                    <p>₹ 2900.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+                <div class="box">
+                    <img src="images/Tween Girls Washed Crew Seamed Sweatshirt With Graphic Print.jpeg" alt="">
+                    <p>Washed Crew Seamed Sweatshir</p>
+                    <p>₹ 1700.00</p><button id="add_to_cart">Add To Cart</button>
+                </div>
+            </div>
+            <button class="scroll-btn" id="nextBtn-pick">
+                <img src="images/icons/right.png" alt="Next">
+            </button>
+        </div>
+        <p id="explore"><a href="shop_all.html">Explore More</a></p>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div id="footer">
+            <div id="f_one">
+                <p><img src="images/icons/pin.png">123 Desert Lane, Your City, India</p>
+                <p><img src="images/icons/email.png">hello@oasisclothing.com</p>
+                <p><img src="images/icons/telephone-call (1).png">+91 98765 43210</p>
+                <div>
+                    <p>Minimal design meets everyday comfort at Oasis Clothing.
+                        Wear pieces that blend effortlessly into your lifestyle.</p>
+                </div>
+            </div>
+            <div id="f_two">
+                <ul>
+                    <li> <a href="topwear.html" target="_self">Men's Topwear </a></li>
+                    <li> <a href="bottomwear.html" target="_self">Men's Bottomwear </a></li>
+                    <li> <a href="outerwear.html" target="_self">Men's OuterWear </a></li>
+                    <li> <a href="womentop.html" target="_self">Women's Topwear </a></li>
+                    <li> <a href="womenbottom.html" target="_self">Women's Bottomwear </a></li>
+                    <li> <a href="womenouter.html" target="_self">Women's OuterWear </a></li>
+                    <li> <a href="accessories.html" target="_self">Accessories </a></li>
+                    <li> <a href="winterwear.html" target="_self">Winterwear </a></li>
+                </ul>
+            </div>
+            <div id="f_two">
+                <ul>
+                    <li><a href="about_us.html" target="_self">About Us </a></li>
+                    <li><a href="contact_us.html" target="_self">Contact Us </a></li>
+                    <li><a href="profile_page.html" target="_self">My Account </a></li>
+                    <li><a href="privacy.html" target="_self">Privacy Policy </a></li>
+                    <li><a href="return.html" target="_self">Refund & Return Policy </a></li>
+                    <li><a href="t&c.html" target="_self">Terms & Conditions </a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="f_three">
+            <p>Follow Us On</p>
+            <img src="images/icons/facebook.png">
+            <img src="images/icons/instagram.png">
+            <img src="images/icons/social.png">
+        </div>
+    </footer>
+    <!-- Bottom_navbar -->
+    <div id="bottom_navbar">
+        <a href="profile_page.html"><img src="images/icons/user (1).png"></a>
+        <a href="favourite.html"><img src="images/icons/heart.png"></a>
+        <a href="cart.html"><img src="images/icons/shopping-bag.png"></a>
+        <a href="contact_us.html"><img src="images/icons/telephone-call.png"></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+    <!-- <script src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+</body>
+
+</html>
